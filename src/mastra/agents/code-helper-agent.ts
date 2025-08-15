@@ -19,7 +19,7 @@ export const codehelperagent = new Agent({
   model: google('gemini-1.5-flash'),
   memory: new Memory({
     storage: new LibSQLStore({
-      url: 'file:../mastra.db', // path is relative to the .mastra/output directory
+      url: ':memory:', // path is relative to the .mastra/output directory
     }),
   }),
 });
