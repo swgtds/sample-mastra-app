@@ -3,7 +3,7 @@ import { Agent } from '@mastra/core/agent';
 import { Memory } from '@mastra/memory';
 import { LibSQLStore } from '@mastra/libsql';
 
-export const codeHelperAgent = new Agent({
+export const codehelperagent = new Agent({
   name: 'Code Helper Agent',
   instructions: `
     You are an experienced software engineer who helps users write, debug, and optimize code.
